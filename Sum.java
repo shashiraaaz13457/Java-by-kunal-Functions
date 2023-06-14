@@ -31,7 +31,7 @@ public class Sum {
     }
 
     /*
-    access modifier return_type name () {
+    access modifier return_type name (arguments) {
         //body
         return statement;
     }
