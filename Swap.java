@@ -16,8 +16,11 @@ public class Swap {
         System.out.println(name);
     }
 
-    static void changeName(String name) {
-        name = "Rahul Raj";
+//    no change in name still showing shashi Raj.
+//    pass by value in java no pass by reference in java.
+//    Strings are immutable (cannot be changed.)
+    static void changeName(String naam) {
+        naam = "Rahul Raj";  //here you are not changing the value you are creating a new object.
     }
 
     static void swap (int a, int b ){
