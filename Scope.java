@@ -2,6 +2,7 @@ public class Scope {
     public static void main(String[] args) {
         int a = 10;
         int b = 20;
+        String name = "kunal";
 
         System.out.println(a);
         System.out.println(b);
@@ -10,7 +11,24 @@ public class Scope {
 
 //        System.out.println(num);
 //        System.out.println(marks);
-        
+
+        //block scope
+        //Values that are initailised in this block cannot be access outside the block.(c)
+
+        {
+            a = 78;  //already initailised outside the block of same method, hence you cannot initialise it again but you can change.
+            int c = 99;
+            name = "Shashi";
+            System.out.println(name);
+            System.out.println(a); //It also changing the original value.
+
+        }
+        System.out.println(a);
+        System.out.println(name);
+
+//        cannot be accesed outside.
+//        System.out.println(c);
+
     }
 
     static void random (int marks){
