@@ -22,6 +22,11 @@ public class Scope {
             System.out.println(name);
             System.out.println(a); //It also changing the original value.
 
+            // Scoping in for loops
+            for (int i = 0; i < 4 ; i++) {
+                System.out.println(i);
+            }
+//            System.out.println(i); you cannot use it outside the scope.
         }
         System.out.println(a);
         System.out.println(name);
