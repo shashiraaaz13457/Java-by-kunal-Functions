@@ -1,7 +1,7 @@
 package A3;
 
 import java.util.Scanner;
-// Q. Define two methods to print the maximum and the minimum number respectively among three numbers entered by the user.
+// Q1. Define two methods to print the maximum and the minimum number respectively among three numbers entered by the user.
 public class Maximum_Minimum {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
