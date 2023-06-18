@@ -9,7 +9,7 @@ public class Swap {
 //        a = b;
 //        b = temp;
         swap(a,b);
-        System.out.println(a + " " + b);
+//        System.out.println(a + " " + b);
 
         String name = "Shashi Raj";
         changeName(name);
@@ -21,11 +21,13 @@ public class Swap {
 //    Strings are immutable (cannot be changed.)
     static void changeName(String naam) {
         naam = "Rahul Raj";  //here you are not changing the value you are creating a new object.
+//        System.out.println(naam);
     }
 
     static void swap (int a, int b ){
         int temp = a;
         a = b;
         b = temp;
+        System.out.println(a + " " + b);
     }
 }

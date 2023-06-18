@@ -6,6 +6,7 @@ public class PassingExample {
 
 //    NO matter what you  are putting inside the argument. it will take the same.
     private static void greet(String naam) {
+
         System.out.println(naam);
     }
 }
