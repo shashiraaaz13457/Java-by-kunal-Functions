@@ -18,7 +18,7 @@ public class Factorial {
         }
         int value = 1;
         int x = 1;
-        while(x >= num){
+        while(x <= num){
             value = value * x;
             x++;
 
