@@ -12,7 +12,7 @@ public class Swap {
 //        System.out.println(a + " " + b);
 
         String name = "Shashi Raj";
-        changeName(name);
+         changeName(name);
         System.out.println(name);
     }
 
