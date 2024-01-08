@@ -54,7 +54,6 @@ public class Revision {
         int sum = num1+num2;
         System.out.println("Sum is : " + sum);
     }
-
-    //Shadowing..
     
+
 }
